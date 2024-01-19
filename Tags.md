@@ -1,9 +1,6 @@
 ---
 layout: page
 title: Tags
-permalink: /Tags/
-redirect_from:
-  - /tags/
 ---
 
 <style>
