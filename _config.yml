@@ -21,8 +21,8 @@
 title: Blog of PosetMage
 email: mail@posetmage.com
 description: >- # this means to ignore newlines until "baseurl:"
-   "I do not remember making that decision. This life, it chose me." -- Ezio
-baseurl: "blog" # the subpath of your site, e.g. /blog
+      ACGN Lover
+baseurl: "/Blog" # the subpath of your site, e.g. /blog
 url: "https://posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 social:
