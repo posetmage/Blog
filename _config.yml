@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PosetMage
+title: Blog of PosetMage
 email: mail@posetmage.com
 description: >- # this means to ignore newlines until "baseurl:"
    "I do not remember making that decision. This life, it chose me." -- Ezio
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "blog" # the subpath of your site, e.g. /blog
 url: "https://posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 social:
