@@ -25,8 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/Blog" # the subpath of your site, e.g. /blog
 url: "https://posetmage.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-includes_dir: _shared/_includes
-layouts_dir: _shared/_layouts
 
 repository: posetmage/Blog
 
@@ -38,7 +36,7 @@ feed:
   url: "https://posetmage.com/Blog"
   output: true
 
-
+  
 social:
   - platform: envelope
     url: mailto:mail@posetmage.com
@@ -50,8 +48,6 @@ social:
     url: https://facebook.com/posetmage
   - platform: twitter
     url: https://twitter.com/posetmage
-  - platform: discord
-    url: https://discordapp.com/users/1008764516370239538
   - platform: line
     url: https://line.me/ti/p/Out6J_7uOq
   - platform: telegram
@@ -59,13 +55,6 @@ social:
   - platform: twitch
     url: https://twitch.tv/posetmage
 
-#order
-header_pages:
-  - About.md
-  - Blog.md
-  - Novel.md
-  - Weekly.md
-  - Contact.md
 
 # Build settings
 remote_theme: jekyll/minima
