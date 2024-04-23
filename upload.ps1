@@ -10,9 +10,9 @@ cd assets
 ./upload.bat
 cd ../
 
-git config --local user.name "PosetMage"
-git config --local user.email "mail@posetmage.com"
-git remote set-url origin git@POM:posetmage/Blog.git
+git config --local user.name "ShinraMage"
+git config --local user.email "shinra@posetmage.com"
+git remote set-url origin git@SH:ShinraMage/Blog.git
 
 git submodule update --recursive --remote
 

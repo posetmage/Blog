@@ -18,22 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PosetMage
-email: mail@posetmage.com
-url: https://posetmage.com # the base hostname & protocol for your site, e.g. http://example.com
-slogan: 国士無双
-
-repository: posetmage/Blog
-baseurl: /Blog # the subpath of your site, e.g. /blog
-description: Blog
-
+title: ShinraMage
+email: shinra@posetmage.com
+url: https://shinra.posetmage.com # the base hostname & protocol for your site, e.g. http://example.com
+author: ShinraMage
+repository: ShinraMage/Blog
 
 feed:
-  title: Blog from PosetMage
-  description: 国士無双
-  author: PosetMage
-  email: mail@posetmage.com
-  url: https://posetmage.com/Blog
   output: true
 
 social:
@@ -56,6 +47,12 @@ social:
 
 # Build settings
 remote_theme: jekyll/minima
+
+exclude:
+  - _includes/.git/
+  - _layouts/.git/
+  - _layouts/page/.git/
+  - assets/.git/
 
 minima:
   skin: dark
