@@ -12,7 +12,7 @@ cd ../
 
 git config --local user.name "ShinraMage"
 git config --local user.email "shinra@posetmage.com"
-git remote set-url origin git@SH:ShinraMage/Blog.git
+git remote set-url origin git@SH:ShinraMage/Snippets.git
 
 git submodule update --recursive --remote
 
